@@ -12,7 +12,7 @@ namespace Project.ENTITIES.Models
 		public decimal UnitPrice { get; set; }
 		public int? CategoryID { get; set; }
 
-		//Relational Properties
+		//Relational Properties    
 		public virtual Category Category { get; set; }
 		public virtual List<OrderDetail> OrderDetails { get; set; }
 
