@@ -12,7 +12,7 @@ namespace Project.ENTITIES.Models
 		public string Password { get; set; }
 
 		//Relational Properties
-		public virtual UserProfile UserProfile { get; set; }
+		public virtual AppUserProfile UserProfile { get; set; }
 		public virtual List<Order> Orders { get; set; }
 	}
 }

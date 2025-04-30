@@ -54,7 +54,7 @@
     <Compile Include="Options\AppUserMap.cs" />
     <Compile Include="Options\BaseMap.cs" />
     <Compile Include="Options\CategoryMap.cs" />
-    <Compile Include="Options\OderDetailMap.cs" />
+    <Compile Include="Options\OrderDetailMap.cs" />
     <Compile Include="Options\OrderMap.cs" />
     <Compile Include="Options\ProductMap.cs" />
     <Compile Include="Options\ShipperMap.cs" />

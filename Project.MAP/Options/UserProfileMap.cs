@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project.MAP.Options
 {
-	public class UserProfileMap : BaseMap<UserProfile>
+	public class UserProfileMap : BaseMap<AppUserProfile>
 	{
 		public UserProfileMap()
 		{

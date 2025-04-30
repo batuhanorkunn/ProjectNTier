@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Project.MAP.Options
 {
-	public class OderDetailMap : BaseMap<OrderDetail>
+	public class OrderDetailMap : BaseMap<OrderDetail>
 	{
-		public OderDetailMap()
+		public OrderDetailMap()
 		{
 			ToTable("Satıslar");
 			Ignore(x => x.ID);
